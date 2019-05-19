@@ -1,0 +1,19 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   width="200px" height="200px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+<filter  height="140%" width="140%" id="drop-shadow" y="-12%" x="-12%">
+  <feGaussianBlur  stdDeviation="2" result="blur-out" in="SourceAlpha"></feGaussianBlur>
+  <feOffset  result="the-shadow" dy="1" in="blur-out" dx="0"></feOffset>
+  
+    <feColorMatrix  type="matrix" values="0 0 0 0   0               0 0 0 0   0                0 0 0 0   0                0 0 0 .5 0" result="color-out" in="the-shadow">
+    </feColorMatrix>
+  <feBlend  in2="color-out" in="SourceGraphic" mode="normal"></feBlend>
+</filter>
+<g filter="url(#drop-shadow)">
+  <path fill="#FFFFFF" d="M190.831,94.898c-0.759-1.068-19.067-26.364-44.333-43.65C133.403,42.263,116.891,37.321,100,37.321
+    c-16.881,0-33.397,4.942-46.521,13.926C28.215,68.534,9.933,93.83,9.166,94.898c-2.204,3.073-2.204,7.147,0,10.209
+    c0.767,1.067,19.049,26.372,44.313,43.649c13.123,8.981,29.639,13.921,46.521,13.921c16.891,0,33.404-4.939,46.499-13.921
+    c25.266-17.294,43.574-42.582,44.333-43.649C193.052,102.045,193.052,97.955,190.831,94.898z M99.614,147.93
+    c-26.845,0-48.58-21.297-48.58-47.469c0-26.231,21.734-47.468,48.58-47.468c26.785,0,48.581,21.237,48.581,47.468
+    C148.194,126.633,126.398,147.93,99.614,147.93z"/>
+</g>
+</svg>
