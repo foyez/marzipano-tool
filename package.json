@@ -1,0 +1,14 @@
+{
+	"name": "marzipano-tool",
+	"version": "1.0.0",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"express": "4.17.0"
+	},
+	"repository": "git@github.com:foyezar/marzipano-tool.git",
+	"author": "foyezar <foyezar@yahoo.com>",
+	"license": "MIT"
+}
